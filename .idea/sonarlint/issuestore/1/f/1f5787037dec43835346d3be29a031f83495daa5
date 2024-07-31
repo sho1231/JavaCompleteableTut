@@ -1,0 +1,14 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8´È½£2J$9245e219-60ff-4cd7-bd42-1a52c8bf657b
+x
+java:S1854"5Remove this useless assignment to local variable "f".(¤áêÅ8ÿóâ¦2J$46f8d690-487b-400d-85a9-ecbb6ded1599
+Ä
+java:S1130"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(­Ëê8Šùá¦2J$c35a0d86-417a-4a53-800c-179d6fd260bf
+º
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(­Ëê8Šùá¦2J$c4cce40c-aff8-4d4c-bb89-cb45b8a39458
+]	java:S125
+"<This block of commented-out lines of code should be removed.(³Ó†äÿÿÿÿÿ8Òã¦2
+r	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8‚ôâ¦2J$8095da6d-a5f3-49db-8913-cf000af588fc
+i
+java:S1481"&Remove this unused "f" local variable.(¤áêÅ8„ôâ¦2J$c449e3d6-6592-4d22-a49f-a26c748849d0
+m	java:S106"+Replace this use of System.out by a logger.(ûê€8„ôâ¦2J$9a1e5ce2-7b59-4eaf-abc5-ab2eac12d3c1

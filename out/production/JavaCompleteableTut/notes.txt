@@ -1,0 +1,3 @@
+Why completeablefuture even though there are other things like future,thread pool etc
+1) Multple futures can't be chained together: Response of one future can't be reused and used for other future
+2) It cannot be forcefully completed

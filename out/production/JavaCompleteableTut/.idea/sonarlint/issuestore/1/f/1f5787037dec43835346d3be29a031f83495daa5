@@ -1,0 +1,10 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8´È½£2J$6508ac72-a5c7-44e7-ba09-2e3553dde0c0
+
+java:S1130"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(­Ëê8Šùá¦2
+”
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(­Ëê8Šùá¦2
+m	java:S106"+Replace this use of System.out by a logger.(ûê€8‰–¿£2J$5a8f3f42-a8aa-4989-a9e5-ed295223193b
+~	java:S125"<This block of commented-out lines of code should be removed.(‘—¬8ú×á¦2J$d9380622-2067-44ff-8e00-94a51eac765a
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8ùá¦2
