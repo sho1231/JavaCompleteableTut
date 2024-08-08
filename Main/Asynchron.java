@@ -14,5 +14,6 @@ public class Asynchron {
       return Arrays.asList(1, 2, 3);
     });
     System.out.println(123);
+    executorService.shutdownNow();
   }
 }
