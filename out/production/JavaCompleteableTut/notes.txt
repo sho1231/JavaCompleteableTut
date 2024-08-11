@@ -6,6 +6,14 @@ https://www.youtube.com/watch?v=ImtZgX1nmr8
 In scenarios where one async task A's value is needed for other async task B, and in order to get A's value we use
 get() method which is a potentially main thread blocker since  A's task might not be completely executed.
 
+2) Can't chain one async task to another, i.e: result of one async task to pass it to another async task
+which is to be processed on a new thread
+
+3)Can't combine async task together, i.e: First order, then check inventory, then accept payment. To get result for each
+task , we have to block the main thread and then only we can pass the result to other async task
+
+4) Can't handle exceptions
+
 
 
 callable is used to get the result from a async method and it's typically done by executor service.
@@ -13,3 +21,14 @@ callable is used to get the result from a async method and it's typically done b
 In Java, a placeholder typically refers to a special symbol or token used to hold a value that is not yet known
 
 difference between submit and execute method of Executor service
+
+
+runAsync: takes runnable as argument so can't return value of the task after completion
+supplyAsync: can return value of the task after completion
+
+for runAsync or supplyAsync method which only takes runnable as argument will get thread from global forkjoin pool
+
+
+Learn what is difference between Void and void?
+
+Anywhere if we are using executor service to define count of thread, we have to shut it down after it's use

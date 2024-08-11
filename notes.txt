@@ -26,4 +26,9 @@ difference between submit and execute method of Executor service
 runAsync: takes runnable as argument so can't return value of the task after completion
 supplyAsync: can return value of the task after completion
 
-for runAsync method which only takes runnable as argument will get thread from global forkjoin pool
+for runAsync or supplyAsync method which only takes runnable as argument will get thread from global forkjoin pool
+
+
+Learn what is difference between Void and void?
+
+Anywhere if we are using executor service to define count of thread, we have to shut it down after it's use

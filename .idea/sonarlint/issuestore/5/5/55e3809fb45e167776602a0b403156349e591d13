@@ -1,2 +1,11 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€ÒşÿÿÿÿJ$a9b1dc6d-fcee-4304-8054-7e2fb98a61d2
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8îøò”2J$5e70df4e-5bed-4866-9182-4402c75c46dd
+¡
+java:S2142
+"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8óøò”2J$d963232f-585d-4549-95a1-dd5d68683276
+r	java:S106"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8÷øò”2J$a182fab3-facd-467b-8163-020b4c86ca67
+r	java:S106!"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8Šıó”2J$1255aed1-6e8d-40f5-bfe2-dfe595c311f4
+~	java:S125("<This block of commented-out lines of code should be removed.(øœ¬¹8÷øò”2J$efbbdd77-3061-4187-b6e7-e67434dfaaaf
+m	java:S106+"+Replace this use of System.out by a logger.(ã´ú¹8•Îƒ”2J$5e91121d-ec45-4ea2-b9ef-663b40c90234
+_
+java:S1116+"Remove this empty statement.(ã´ú¹8–Îƒ”2J$f3f6b994-16ca-4656-9a86-645893a54d09

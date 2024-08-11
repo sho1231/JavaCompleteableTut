@@ -1,0 +1,13 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8¨¼Çƒ”2J$a0b527ee-d488-4283-a234-41f89cd15bc7
+¡
+java:S2142
+"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¬¼Çƒ”2J$e0b635de-b21d-4cb4-9c1d-093f61e3f37b
+}
+java:S1854"5Remove this useless assignment to local variable "f".(üÄ•Úıÿÿÿÿ8­¼Çƒ”2J$ba3046cc-6771-4d76-ab0e-bc54b59281e2
+t
+java:S1602",Remove useless curly braces around statement(üÄ•Úıÿÿÿÿ8®¼Çƒ”2J$e9d8ad50-bbef-469f-a692-b5d0714b6b2b
+r	java:S106"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8®¼Çƒ”2J$716184a1-fd50-47f7-b14e-0906ea3a7587
+n
+java:S1481"&Remove this unused "f" local variable.(üÄ•Úıÿÿÿÿ8¯¼Çƒ”2J$123a8c3a-1a2b-48f0-b0d5-37f7a8298a15
+F	java:S106"+Replace this use of System.out by a logger.(Ö³N8¨Éƒ”2
