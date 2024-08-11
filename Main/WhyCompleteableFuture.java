@@ -12,20 +12,32 @@ public class WhyCompleteableFuture {
     }
   }
   public static List<Integer> supplyAsync() throws ExecutionException, InterruptedException {
-    CompletableFuture<List<Integer>> f = CompletableFuture.supplyAsync(()-> Arrays.asList(1,2,3,4));
-    return f.get();
+    CompletableFuture<List<Integer>> f = CompletableFuture.supplyAsync(
+            ()->{
+              delay(7);
+              System.out.println(Thread.currentThread().getName());
+              return Arrays.asList(1,2,3,4);
+            }
+    );
+    return new ArrayList<>();
   }
   public static List<Integer> supplyAsyncWithExecutor(ExecutorService executorService) throws ExecutionException, InterruptedException {
-    delay(6);
-    CompletableFuture<List<Integer>> f = CompletableFuture.supplyAsync(()-> Arrays.asList(1,2,3,4),executorService);
-    return f.get();
-  }
-  public static Void runasyncMethod() throws ExecutionException, InterruptedException {
-    CompletableFuture<Void> f = CompletableFuture.runAsync(()->{
+
+    CompletableFuture<List<Integer>> f = CompletableFuture.supplyAsync(()->{
       delay(6);
+      System.out.println(Thread.currentThread().getName());
+      return Arrays.asList(1,2,3,4);
+    },executorService);
+
+    return new ArrayList<>();
+  }
+  public static void runasyncMethod() throws ExecutionException, InterruptedException {
+    CompletableFuture<Void> f = CompletableFuture.runAsync(()->{
+      delay(120);
+      System.out.println(Thread.currentThread().getName());
       System.out.println(1);
     });
-   return f.get();
+
   }
   public static Void runasyncMethodWithCustomExecutor() throws ExecutionException, InterruptedException {
     CompletableFuture<Void> f = CompletableFuture.runAsync(()->{
@@ -39,8 +51,9 @@ public class WhyCompleteableFuture {
     // complete method of the completeablefuture can stop the task forcefully
 //    System.out.println(runasyncMethodWithCustomExecutor());
 //    System.out.println(12323);
-      ExecutorService executorService = Executors.newFixedThreadPool(4);
-    System.out.println(supplyAsyncWithExecutor(executorService));;
-    executorService.shutdown();
+//      ExecutorService executorService = Executors.newFixedThreadPool(4);
+    runasyncMethod();
+//    executorService.shutdown();
+    System.out.println("abc:"+Thread.currentThread().getName());
   }
 }

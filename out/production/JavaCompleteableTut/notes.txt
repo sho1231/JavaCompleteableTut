@@ -32,3 +32,7 @@ for runAsync or supplyAsync method which only takes runnable as argument will ge
 Learn what is difference between Void and void?
 
 Anywhere if we are using executor service to define count of thread, we have to shut it down after it's use
+
+
+
+.thenAccept() and .thenRun() will not return anything the only difference will be their type of argument
