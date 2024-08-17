@@ -11,7 +11,7 @@ public class WhyCompleteableFuture {
       e.printStackTrace();
     }
   }
-  public static List<Integer> supplyAsync() throws ExecutionException, InterruptedException {
+  public static List<Integer> supplyAsyncMethod() throws ExecutionException, InterruptedException {
     CompletableFuture<List<Integer>> f = CompletableFuture.supplyAsync(
             ()->{
               delay(7);

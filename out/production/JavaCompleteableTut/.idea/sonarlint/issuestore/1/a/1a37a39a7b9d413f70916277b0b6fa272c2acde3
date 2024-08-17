@@ -1,0 +1,24 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ò÷Ş–2J$b7801fd8-1a3a-4da5-953a-a52944a33a92
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÖîöÕşÿÿÿÿ8Ò÷Ş–2J$797f52bf-4073-4e1f-99e8-7d16b26a5700
+	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(ÖîöÕşÿÿÿÿ8Ò÷Ş–2J$0d5f05aa-d0c8-4bc1-af3d-fe346b895aca
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8Ó÷Ş–2J$90c4fed9-29d2-49b8-b085-6916ee9b8ac3
+¡
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Ö÷Ş–2J$b80bf268-5721-4c3c-bf37-df0b14dfca9f
+r	java:S106"+Replace this use of System.out by a logger.(Ñ‘´Òøÿÿÿÿ8×÷Ş–2J$965c0a71-029f-4849-a8a4-30f663d4ef9f
+r	java:S106"+Replace this use of System.out by a logger.(Ÿìû‚øÿÿÿÿ8×÷Ş–2J$b8a6a074-ac4d-4f79-a833-ab040db346ad
+w
+java:S1611"/Remove the parentheses around the "e" parameter(´ÄÂ˜øÿÿÿÿ8Ø÷Ş–2J$f6dcc2ad-ea09-4d1b-98c2-3f1449c64f65
+¦
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ß•Äøÿÿÿÿ8Ø÷Ş–2J$3899cc47-b314-4c6f-8694-5c9c3e15a7fa
+r	java:S106"+Replace this use of System.out by a logger.(‰ò‰…ùÿÿÿÿ8Ø÷Ş–2J$a87facd7-c84d-41de-8bbf-ed9e9443d289
+r	java:S106"+Replace this use of System.out by a logger.(Ÿìû‚øÿÿÿÿ8Ø÷Ş–2J$c99a97fa-491d-48fd-bd0a-a1ad4425c546
+w
+java:S1611"/Remove the parentheses around the "e" parameter(´ÄÂ˜øÿÿÿÿ8Ø÷Ş–2J$bed5083f-a664-4ba5-bc95-0e9a8e3d5f39
+¦
+java:S2142!"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ß•Äøÿÿÿÿ8Ø÷Ş–2J$950ae22c-c6d5-4c84-bd40-692ea8773b8b
+m	java:S106"+Replace this use of System.out by a logger.(ïşîÓ8Ø÷Ş–2J$9d404db4-ddbc-4498-bdfe-7286737e6aea
+r	java:S106 "+Replace this use of System.out by a logger.(Ÿìû‚øÿÿÿÿ8Ù÷Ş–2J$df7a6c43-ca5f-435b-9d19-c02efa84fb30
+m	java:S106%"+Replace this use of System.out by a logger.(ä‘¥Ş8’×ß–2J$335cc426-77cc-4e8b-aee6-447d6e502fdf
+}
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8Ù÷Ş–2J$fa4ac276-a5df-44f5-aac8-f67e3dfcea55

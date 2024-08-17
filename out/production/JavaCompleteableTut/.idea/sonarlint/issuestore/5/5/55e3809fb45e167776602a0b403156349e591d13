@@ -1,13 +1,37 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8¨¼Çƒ”2J$a0b527ee-d488-4283-a234-41f89cd15bc7
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8õ¡¥’”2J$5cd6f7df-191b-444a-9534-8eb05b76282d
 ¡
 java:S2142
-"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¬¼Çƒ”2J$e0b635de-b21d-4cb4-9c1d-093f61e3f37b
+"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ú¡¥’”2J$ae2a81f3-d428-42f5-ba7c-6e6d570e5372
 }
-java:S1854"5Remove this useless assignment to local variable "f".(üÄ•Úıÿÿÿÿ8­¼Çƒ”2J$ba3046cc-6771-4d76-ab0e-bc54b59281e2
-t
-java:S1602",Remove useless curly braces around statement(üÄ•Úıÿÿÿÿ8®¼Çƒ”2J$e9d8ad50-bbef-469f-a692-b5d0714b6b2b
-r	java:S106"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8®¼Çƒ”2J$716184a1-fd50-47f7-b14e-0906ea3a7587
+java:S1854"5Remove this useless assignment to local variable "f".(ßá—ƒùÿÿÿÿ8û¡¥’”2J$663fa2f7-d718-4e4f-8fc1-748e9c25776e
+Ä
+java:S1130"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(¨À£÷8û¡¥’”2J$20dbb5f5-1979-4f78-bdd7-dd30495c17f5
+º
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(¨À£÷8û¡¥’”2J$6daa554e-2328-45b4-89aa-75c52de5151f
+r	java:S106"+Replace this use of System.out by a logger.(›Óğ°şÿÿÿÿ8ü¡¥’”2J$2c042635-68d3-42af-b46a-e46640785b78
 n
-java:S1481"&Remove this unused "f" local variable.(üÄ•Úıÿÿÿÿ8¯¼Çƒ”2J$123a8c3a-1a2b-48f0-b0d5-37f7a8298a15
-F	java:S106"+Replace this use of System.out by a logger.(Ö³N8¨Éƒ”2
+java:S1481"&Remove this unused "f" local variable.(ßá—ƒùÿÿÿÿ8ı¡¥’”2J$09f11fa8-d3e6-4204-83a7-bebd250c7468
+x
+java:S1854"5Remove this useless assignment to local variable "f".(í…ø8ı¡¥’”2J$00865a23-ff6a-423e-aa1c-aa978d0347ee
+É
+java:S1130"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(ÈÎÛôıÿÿÿÿ8ı¡¥’”2J$5067b92d-5e3a-4415-b6f8-b109af85cd38
+¿
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ÈÎÛôıÿÿÿÿ8ı¡¥’”2J$85b705f5-e952-4a03-a65e-8bf0cedd80b2
+r	java:S106"+Replace this use of System.out by a logger.(›Óğ°şÿÿÿÿ8ş¡¥’”2J$517ddb5b-ebd2-4df1-9aeb-c00cfb37761f
+i
+java:S1481"&Remove this unused "f" local variable.(í…ø8ş¡¥’”2J$42efada2-9bd1-4920-84ee-b5f41c5a9789
+}
+java:S1854#"5Remove this useless assignment to local variable "f".(üÄ•Úıÿÿÿÿ8ş¡¥’”2J$014f2574-c21a-4e19-959d-a27db8d42acb
+É
+java:S1130""€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(§¯¨øÿÿÿÿ8ş¡¥’”2J$f5b5c0e0-19ee-4640-95b3-e707f66e792b
+¿
+java:S1130""wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(§¯¨øÿÿÿÿ8ş¡¥’”2J$de9b540b-fa2f-4225-a692-7257029c6ee2
+r	java:S106%"+Replace this use of System.out by a logger.(›Óğ°şÿÿÿÿ8ÿ¡¥’”2J$f2d8fd49-6b93-43c6-b7be-b40fdccc9b60
+r	java:S106&"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8ÿ¡¥’”2J$c2e67111-4b85-4313-998c-46432d441793
+n
+java:S1481#"&Remove this unused "f" local variable.(üÄ•Úıÿÿÿÿ8ÿ¡¥’”2J$16f576e9-4413-42aa-ae7c-b96bde546bb4
+r	java:S106-"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8€¢¥’”2J$0bacb809-327d-49f4-bdf3-d92925ab62e3
+~	java:S1254"<This block of commented-out lines of code should be removed.(øœ¬¹8€¢¥’”2J$cdf63deb-97d9-491f-8c30-d1e1a03ee0cf
+m	java:S1069"+Replace this use of System.out by a logger.(ê‹º©8á§’”2J$571307e6-72c2-408a-8815-0cc18afd34b6
+~	java:S1258"<This block of commented-out lines of code should be removed.(ˆÕ¹Ğ8€¢¥’”2J$bce76262-3b45-4069-9d7e-5f6dbd790178
