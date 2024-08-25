@@ -1,0 +1,11 @@
+1) After the newly created thread has done it's task, java will kill that thread.
+
+2) 1 java thread= 1 os thread
+
+3) In executorservice framework, a blocking queue (thread safe) is used since thread attempt to fetch tasks from the queue concurrently,
+that is fetching task at the same time which might cause same task being completed by more than one thread which
+leads to waste of resource.
+
+4) N cores = N number of threads running concurrently. Also this will be the ideal number to have that many threads.
+
+5) For IO intensive operations like an http call or database call, it's better to have more threads.
