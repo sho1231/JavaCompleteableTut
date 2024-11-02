@@ -41,8 +41,11 @@ public class FutureTut {
         executorService.shutdown();
         return c;
     }
+
+    public static String chainingMethods() {
+        return CompletableFuture.supplyAsync(()->"acv").thenApply(s->"hello "+s).join();
+    }
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        usingSupplyAsync().join();
-        System.out.println("Done");
+        System.out.println("Done:"+chainingMethods());
     }
 }

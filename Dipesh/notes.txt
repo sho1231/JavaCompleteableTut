@@ -5,8 +5,24 @@ object to finish. It will wait when every other processing is done.
 
 3)by default completeable will run on thread from forkjoin pool.
 
-at last write those drawbacks
+Drawbacks of future:
+A) can't chain tasks: let's say we are running task A asynchronously and want to run task B
+too asynchronously but b has to depend on A's response , so if we want to implement using Future
+then we have wait in main thread for task A to complete and then pass the response to B. But in
+Completeable u can chain the task using thenApply,thenAccept and thenRun and task A's response can
+directly go to task B without the main thread to wait.
+
+B) Can't combine: Running multiple task asynchronously and have to ensure all the task has
+completed processing. With future we can't do it, but with Completeable we can do it
+
+C) Can't manually stop.
+
+D) No exception handling.
 
 4)join() of CompleteableFuture will wait for the completeable future to complete
-and return the result of the completebale future and can throw unchecked exception if exception
+and return the result of the completeabale future and can throw unchecked exception if exception
 occurs
+
+5) thenApply --> takes argument and return response;
+    thenAccept --> takes argument and return nothing.
+    thenRun --> does not take argument and return nothing.
