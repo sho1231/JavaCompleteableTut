@@ -9,3 +9,22 @@ leads to waste of resource.
 4) N cores = N number of threads running concurrently. Also this will be the ideal number to have that many threads.
 
 5) For IO intensive operations like an http call or database call, it's better to have more threads.
+
+
+6) In cachedthreadpool, there is synchronous queue and only one place to hold new task
+7) If all threads are busy , then new thread is used else thread which has completed the task will be used
+for another task
+8) If threads are idle for 60 seconds, it will be killed
+
+9)Single threaded executor --> has only one thread and is used when we need certain tasks to be performed sequentially
+
+
+10) Core pool size: Initial thread pool size
+    Current pool size: If threads are added or deleted accordingly to the pool size, at that time the pool size is called
+    current pool size.
+    max pool size: Max no of thread a pool can have.
+
+11) Unbounded queue are queues that has no size
+
+
+12) CallerRunsPolicy: If queue can't hold new task then thread pool will ask caller itself i.e: Main thread itself to run the task.

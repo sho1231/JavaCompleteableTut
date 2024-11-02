@@ -1,5 +1,8 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ù¥€¡8Ýè¯Ä˜2J$19b9dd02-1b8d-4822-8606-8b2764820952
-m	java:S106"+Replace this use of System.out by a logger.(úÒÉô8õÌ±Ä˜2J$16a67ca2-4227-4b95-8bb1-3b46a15b89dc
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ù¥€¡8þâ×Å˜2J$3fbbd7cc-e7a9-44ee-bbbe-c8778598123e
+m	java:S106"+Replace this use of System.out by a logger.(úÒÉô8ËžÜÅ˜2J$b9fcd03b-c138-4707-a7dd-6146bb6bbf2f
+l	java:S106"+Replace this use of System.out by a logger.(¦…Å'8…ã×Å˜2J$e3cad2f5-c74f-49c0-9e04-b708f47a7bf2
+8
+java:S1116"Remove this empty statement.(¦…Å'8ÄÐÞÅ˜2
 ‚
-java:S1128":Remove this unused import 'java.util.concurrent.Executor'.(÷ý¶Œúÿÿÿÿ8õÌ±Ä˜2J$32fa3235-ba3d-43a8-bea4-3b9fe00d968c
+java:S1128":Remove this unused import 'java.util.concurrent.Executor'.(÷ý¶Œúÿÿÿÿ8…ã×Å˜2J$ca5092b2-d6d7-44d9-b810-b70ec64a2722

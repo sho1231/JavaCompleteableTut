@@ -1,13 +1,0 @@
-
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¿¥†‘•2J$c9924638-fba3-4522-aedf-7d198ebff55f
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¿¥†‘•2J$2395bab5-f3ee-4b8d-9bed-57c391006794
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8À¥†‘•2J$e57aa4ba-df79-4fce-8b0a-68cbbccbed4b
-—
-java:S4144"TUpdate this method so that its implementation is not identical to "test1" on line 8.(¦æÛ8ğ¦ó‘•2J$bd394324-fab4-4c79-83d2-9d10b954daf8
-m	java:S106
-"+Replace this use of System.out by a logger.(úÒÉô8Å¥†‘•2J$b294a1f9-41f7-45a7-a77d-a7f8ffcf5979
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(¡Íä—ıÿÿÿÿ8ñ¦ó‘•2J$dd01ac08-f66f-43de-88fe-b9b0c2f8ee4d
-m	java:S106"+Replace this use of System.out by a logger.(úÒÉô8Æ¥†‘•2J$5519a4bc-f603-44de-93d2-10ba4b55688e
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ë§ç¶ûÿÿÿÿ8¨Ôò‘•2J$28e17867-c5ae-42a1-aeb1-c03c41fef630
-m	java:S106!"+Replace this use of System.out by a logger.(¢©ÊÏ8Ûˆ‘•2J$a3a2af4d-3af5-45f7-beda-3aac572abfcd
-r	java:S106""+Replace this use of System.out by a logger.(œ§Êîøÿÿÿÿ8Ü¢‰‘•2J$2710c64d-08f7-479c-89f2-31479512892f

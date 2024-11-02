@@ -1,0 +1,12 @@
+1)shutdown method of executor service does not make the codeflow stop for the future
+object to finish. It will wait when every other processing is done.
+
+2)runAsync ---> Does not take argument and does not r
+
+3)by default completeable will run on thread from forkjoin pool.
+
+at last write those drawbacks
+
+4)join() of CompleteableFuture will wait for the completeable future to complete
+and return the result of the completebale future and can throw unchecked exception if exception
+occurs
