@@ -29,3 +29,10 @@ occurs
 5) thenApply --> takes argument and return response;
     thenAccept --> takes argument and return nothing.
     thenRun --> does not take argument and return nothing.
+
+
+
+thenCompose chains two future A and B where future B is dependent on the result of future A.
+
+thenCombine will chain two futures in a way where two futures will run independently of each other and once
+both are done executed we can do something with the result of both the methods.
