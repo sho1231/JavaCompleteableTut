@@ -1,6 +1,7 @@
 package Dipesh;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.concurrent.*;
 
 public class FutureTut2 {
@@ -39,22 +40,46 @@ public class FutureTut2 {
             return "Sunny";
         },executorService );
     }
+    public static CompletableFuture<String> method1() {
+        return CompletableFuture.supplyAsync(()->{
+            delay(2);
+            System.out.println("done method1");
+            return "method1";
+        });
+    }
+    public static CompletableFuture<String> method2() {
+        return CompletableFuture.supplyAsync(()->{
+            delay(2);
+            System.out.println("done method2");
+            return "method2";
+        });
+    }
+    public static CompletableFuture<String> method3() {
+        return CompletableFuture.supplyAsync(()->{
+            delay(3);
+            System.out.println("done method3");
+            return "method3";
+        });
+    }
     public static void main(String[] args)  {
         long start  = System.currentTimeMillis();
         ExecutorService executorService = Executors.newFixedThreadPool(4);
 //        CompletableFuture<String> getWishListOfUser = getUser("Shourja",executorService).thenCompose((user)->getWishList(user,executorService));
         // here thenCombine will take argument first argument as the completeable future and second argument as a method which will do something
         // after both method is being completely executed
-        CompletableFuture<String> sendWeatherReport = getUserList(executorService).thenCombine(getWeatherReport(executorService),(userList,report)->{
-            // The below line will not necessary be executed on the same thread as getWeatherReport
-            return "Weather Report is sunny and sending to:"+userList+" "+Thread.currentThread().getName();
-        });
+//        CompletableFuture<String> sendWeatherReport = getUserList(executorService).thenCombine(getWeatherReport(executorService),(userList,report)->{
+//            // The below line will not necessary be executed on the same thread as getWeatherReport
+//            return "Weather Report is sunny and sending to:"+userList+" "+Thread.currentThread().getName();
+//        });
+//        CompletableFuture<Void> c = CompletableFuture.allOf(method1(),method2(),method3());
+        CompletableFuture<Object> c = CompletableFuture.anyOf(method1(),method2(),method3());
         System.out.println("Random task 1");
         delay(2);
         System.out.println("Random task 2");
         delay(3);
 //        System.out.println(getWishListOfUser.join());
-        System.out.println(sendWeatherReport.join());
+//        System.out.println(sendWeatherReport.join());
+        System.out.println(c.join());
         executorService.shutdown();
         long end = System.currentTimeMillis();
         System.out.println("time taken:"+(end-start)/1000);
