@@ -1,10 +1,10 @@
-1)shutdown method of executor service initiates the shutdown of executor service and
-will shutdown once the queued tasks as well as the task executed by thread is completed
+1)shutdown method of executor service initiates the shutdown of executor service and will not block the main thread and
+will shutdown once the queued tasks as well as the task executed by thread is completed.
 
 2) isTerminated : will return true if the executor service has been shutdown
 3) isShutdown : will return true if executor service has been initiated to shutdown
 
-2)runAsync ---> Does not take argument and does not r
+2)runAsync ---> Does not take argument and does not return anything
 
 3)by default completeable will run on thread from forkjoin pool.
 
